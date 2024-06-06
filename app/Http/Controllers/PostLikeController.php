@@ -23,6 +23,6 @@ class PostLikeController extends Controller
                 ->delete();
         }
 
-        return redirect()->route('post.index');
+        return redirect()->route('posts.index');
     }
 }
